@@ -1,6 +1,6 @@
 /*==========================================
   A matrix will be a 4xN array of doubles
-  Each row will represent an [x, y, z, 1] point.
+  Each column will represent an [x, y, z, 1] point.
   For multiplication purposes, consider the rows like so:
   x0  x1      xn
   y0  y1      yn

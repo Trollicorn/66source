@@ -5,7 +5,7 @@ struct matrix {
   double **m;
   int rows, cols;
   int lastcol;
-} matrix;
+};
 
 //Basic matrix manipulation routines
 struct matrix *new_matrix(int rows, int cols);

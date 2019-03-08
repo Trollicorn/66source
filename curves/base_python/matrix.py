@@ -15,7 +15,7 @@ def make_bezier():
 def make_hermite():
     pass
 
-def generate_curve_coefs( p1, p2, p3, p4, t ):
+def generate_curve_coefs( p0, p1, p2, p3, t ):
     pass
 
 

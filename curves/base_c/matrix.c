@@ -43,8 +43,8 @@ struct matrix * make_hermite() {
 
   Type determines whether the curve is bezier or hermite (see matrix.h)
   ====================*/
-struct matrix * generate_curve_coefs( double p1, double p2,
-                                      double p3, double p4, int type) {
+struct matrix * generate_curve_coefs( double p0, double p1,
+                                      double p2, double p3, int type) {
   return NULL;
 }
 

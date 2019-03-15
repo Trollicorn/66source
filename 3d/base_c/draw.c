@@ -122,7 +122,7 @@ void add_circle( struct matrix *edges,
 
   x0 = r + cx;
   y0 = cy;
-  for (i=0; i<=step; i++) {
+  for (i=1; i<=step; i++) {
     t = (double)i/step;
     x1 = r * cos(2 * M_PI * t) + cx;
     y1 = r * sin(2 * M_PI * t) + cy;
@@ -169,7 +169,7 @@ void add_curve( struct matrix *edges,
   /* printf("\n"); */
   /* print_matrix(ycoefs); */
   
-  for (i=0; i<=step; i++) {
+  for (i=1; i<=step; i++) {
     t = (double)i/step;
     x = xcoefs->m[0][0] *t*t*t + xcoefs->m[1][0] *t*t+
       xcoefs->m[2][0] *t + xcoefs->m[3][0];

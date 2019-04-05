@@ -61,7 +61,7 @@ def add_circle( points, cx, cy, cz, r, step ):
         add_edge(points, x0, y0, cz, x1, y1, cz)
         x0 = x1
         y0 = y1
-        t+= step
+        i+= 1
 
 def add_curve( points, x0, y0, x1, y1, x2, y2, x3, y3, step, curve_type ):
 
@@ -79,7 +79,7 @@ def add_curve( points, x0, y0, x1, y1, x2, y2, x3, y3, step, curve_type ):
         add_edge(points, x0, y0, 0, x, y, 0)
         x0 = x
         y0 = y
-        t+= step
+        i+= 1
 
 
 def draw_lines( matrix, screen, color ):

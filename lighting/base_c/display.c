@@ -32,7 +32,7 @@ dw
 ====================*/
 void plot( screen s, zbuffer zb, color c, int x, int y, double z) {
   int newy = YRES - 1 - y;
-  z = (int)(z * 1000)/1000;
+  z = (int)(z * 1000)/1000.0;
   if ( x >= 0 && x < XRES && newy >=0 && newy < YRES &&
        zb[x][newy] <= z) {
     s[x][newy] = c;

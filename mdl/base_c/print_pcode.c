@@ -7,6 +7,7 @@
 
 void print_pcode()
 {
+  print_symtab();
   int i;
   for (i=0;i<lastop;i++)
     {
